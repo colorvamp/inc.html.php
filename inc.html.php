@@ -51,7 +51,7 @@
 		'Host: '.$uinfo['host'].$CR.
 		(isset($data['userAgent']) ? 'User-Agent: '.$data['userAgent'] : 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:29.0) Gecko/20100101 Firefox/29.0').$CR.
 		'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'.$CR.
-		'Accept-Language: '.(isset($data['accept.language']) ? $data['accept.language'] : 'es-ES,es;q=0.8,en-US:q=0.5,en;q=03').$CR
+		'Accept-Language: '.(isset($data['accept.language']) ? $data['accept.language'] : 'es-ES,es;q=0.8,en-US:q=0.5,en;q=03').$CR.
 		'Accept-Encoding: gzip,deflate'.$CR.
 		'Connection: Close'.$CR.
 		(isset($data['referer']) ? 'Referer: '.$data['referer'].$CR : '').
